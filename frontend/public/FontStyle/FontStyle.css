@@ -1,0 +1,49 @@
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noto-serif-khmer {
+  font-family: "Noto Serif Khmer", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.bg-hero-pattern {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("../../public/assets/campus.jpg");
+}
+
+.bg-abouthero-pattern {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("../../public/assets/about-background.jpg");
+}
+
+.login-back-pattern {
+  background: url("../../public/assets/LoginBack.jpg");
+  /* background: url("../../public/assets/BackLogin1.jpg"); */
+}
+
+.flex-divider:before,
+.flex-divider:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid white; /* You can adjust the color as needed */
+  margin: auto;
+}
+.flex-divider:before {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+.flex-divider:after {
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
