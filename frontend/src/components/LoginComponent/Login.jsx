@@ -3,7 +3,7 @@ import "../../../public/FontStyle/FontStyle.css";
 const Login = () => {
   return (
     <div
-      className="noto-serif-khmer w-full h-[100vh] flex items-center justify-center"
+      className="noto-serif-khmer w-full h-[100vh] flex items-center justify-center sm:p-[10px]"
       style={{ height: "calc(100vh - 7vh)" }}
     >
       <form className="w-[50vh] h-fit border  leading-[50px] box-border p-[20px] overflow-hidden bg-[#2E236C] text-[#fff]  rounded-2xl">
